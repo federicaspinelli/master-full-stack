@@ -1,0 +1,41 @@
+table {
+    border-collapse:collapse
+}
+
+tr, td {
+    border:1px solid rgb(185, 76, 76);
+    padding:18px 40px;
+}
+
+th {
+    background-color:  rgb(185, 76, 76);
+    padding:18px 40px;
+    font-weight: 200;
+}
+
+.scuro {
+    background-color: black;
+}
+
+.fontintestazione {
+    color:yellow;
+}
+.circle {
+    border-radius: 50%;
+    color: white;
+}
+.circle.absent {
+    background-color: red;
+}
+.circle.present {
+    background-color: green;
+}
+
+.orologio {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.orologio .ore {
+    color: chocolate;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Elenco presenze</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="seleforPeople.css">
+    <!-- async e defer queste due proprietà indicano: tu inizia a leggere il documento, io attendo -->
+    <script src="seleforPeople.js" async defer></script>
+</head>
+<body>
+    <h1>Lezione 4 - Esercitazione - Elenco presenze</h1>
+    <h2>Creare una tabella con dati ed elenco delle presenze con checkbox</h2>
+    <!-- contenitore della tabella
+    <table id="maintable1">
+        <!-- intestazione della tabella -->
+        <!-- <tr> -->
+            <!-- celle della riga prima riga nella tabella -->
+            <!-- <th>Nome</th>
+            <th>Email</th>
+            <th>Telefono</th>
+            <th>Presenza</th>
+        </tr>
+    </table> -->
+    
+    <h1>Lezione 5 - Esercitazione - Creare una tabella popolandola con i dati JS</h1>
+
+    <form class="add-data">
+        <label for="name">
+            <span>Nome</span>
+            <input class="name" name="name" type="text"/>
+        </label>
+        <label for="mail">
+            <span>Aggiungi email</span>
+            <input class="mail" name="mail" type="email"/>
+        </label>
+        <label for="tel">
+            <span>Telefono</span>
+            <input class="tel" name="tel" type="tel"/>
+        </label>
+        <label for="isPresent">
+            <span>Presenza</span>
+            <select class="isPresent">
+                <option value="true">SI</option>
+                <option value="false">NO</option>
+            </select>
+        </label>
+        <button class="add">Aggiungi</button>
+    </form>
+
+    <h2>Tabella popolata</h2>
+
+    <table id="maintable">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefono</th>
+                <th>Presenza</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <!--<button class="toggle" id="s">Cambia sfondo</button>
+    button class="toggle" id="e">Aggiungi elemento</button-->
+    
+    <!-- <div class="clock">
+        <h2>Orario</p>
+            <span class="orario"></span>
+    </div> -->   
+    </body>
+</html>
